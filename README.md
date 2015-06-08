@@ -1,9 +1,12 @@
 # Unicode Slugify
 
-Unicode Slugify is a slugifier that generates unicode slugs.  It was originally
-used in the Firefox Add-ons web site to generate slugs for add-ons and add-on
-collections.  Many of these add-ons and collections had unicode characters and
-required more than simple transliteration.
+This fork of `Unicode Slugify`_ uses `Text-Unidecode`_, that is under `Artistic License`_.
+If you're OK with GLP better use original slugifier.
+
+
+.. _Text-Unidecode: https://github.com/kmike/text-unidecode
+.. _Artistic License: http://opensource.org/licenses/Artistic-Perl-1.0
+.. _Unicode Slugify: https://github.com/mozilla/unicode-slugify
 
 ## Usage
 
@@ -17,7 +20,3 @@ required more than simple transliteration.
 
     >>> slugify(u'Bakıcı geldi', only_ascii=True)
     u'bakici-geldi'
-
-## Thanks
-
-Tomaz Solc, unidecode, https://pypi.python.org/pypi/Unidecode

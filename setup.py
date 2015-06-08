@@ -13,7 +13,7 @@ setup(
     include_package_data=True,
     package_data={'': ['README.md']},
     zip_safe=False,
-    install_requires=['six', 'unidecode'],
+    install_requires=['six', 'text-unidecode'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',

@@ -1,7 +1,7 @@
 import re
 import six
 import unicodedata
-from unidecode import unidecode
+from text_unidecode import unidecode
 
 
 def smart_text(s, encoding='utf-8', errors='strict'):
